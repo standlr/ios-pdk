@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'PinterestSDK' do
-  pod "PinterestSDK", :path => "../"
+  pod "PinterestSDK_5", :path => "../"
 end
