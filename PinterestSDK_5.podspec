@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.author           = { "Ricky Cancro" => "ricky@pinterest.com", "Garrett Moon" => "garrett@pinterest.com" }
   s.source           = { :git => "https://github.com/standlr/ios-pdk.git", :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
   s.requires_arc = true
 
   s.weak_frameworks = 'SafariServices'
